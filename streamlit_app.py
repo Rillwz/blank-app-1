@@ -3,12 +3,12 @@
 import streamlit as st
 import pandas as pd
 import numpy as np
-from sklearn.linear_model import LinearRegression # type: ignore
-from sklearn.model_selection import train_test_split # type: ignore
-from sklearn.metrics import mean_squared_error, r2_score # type: ignore
-from sklearn.preprocessing import LabelEncoder, MinMaxScaler # type: ignore
-import matplotlib.pyplot as plt # type: ignore
-import seaborn as sns # type: ignore
+from sklearn.linear_model import LinearRegression
+from sklearn.model_selection import train_test_split 
+from sklearn.metrics import mean_squared_error, r2_score
+from sklearn.preprocessing import LabelEncoder, MinMaxScaler
+import matplotlib.pyplot as plt
+import seaborn as sns
 
 # Load your dataset
 @st.cache_data
